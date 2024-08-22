@@ -44,7 +44,7 @@ for first_name in people.keys():
 for last_name in people.values():
   print(last_name)
 
-# write a recursive function that prints all the names in the list
+# Recursion (similar to loops)
 def print_names(names):
   if len(names) == 0:
     return
@@ -55,3 +55,31 @@ print("")
 print("Recursion")
 print("")
 print_names(names)
+
+# Recursion (similar to loops)
+print("")
+print("Print print_names2 funcion")
+
+
+# A recursive function is a function that calls itself
+# my list take an array, or a string, index is set to 0
+def print_names2(my_list, index=0):
+    # Starting the resursive function loop will be printed only once
+    if index == 0:
+        print("Starting the recursive function loop")
+
+    # the length of the list is the base case
+    # last element of the list will always be len(my_list) - 1
+    if index >= len(my_list):
+        print("end of list")
+        return
+    
+    # print the element of the list at the index
+    print(my_list[index])
+
+    # call the function again with the same list and the next index
+    return print_names2(my_list, index + 1)
+
+# Example usage
+print_names2(names)
+print_names2("Sergino Delia")
