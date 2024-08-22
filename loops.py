@@ -1,16 +1,23 @@
 # For Loops
 # dynamically typed
-names = ['black', 'musty', 'dusty', 'sloppy', 5]
-lizzo = names
-lizzo.pop()
-lizzo.append('flat booty')
+names = ['John', 'Wick', 'Trump', 'Kamala', 'Joe', 'Smith']
+new_names = names
+new_names.pop()
+new_names.append('Samuel')
 
-# print(yomomma)
+for name in names:
+  print(name)
+  
+print("Print the names with their index\n")
 
-# for placeholder in yomomma:
-#   print(placeholder)
+for name in enumerate(names):
+  print(name)
 
-print("while loop --------------")
+print("while loop --------------\n")
+
+# print the items at a given index
+for name in enumerate(names):
+  print(name[0], name[1])
 
 index = 0
 # # while true
@@ -52,13 +59,13 @@ def print_names(names):
   print_names(names[1:])
 
 print("")
-print("Recursion")
+print("Recursion\n")
 print("")
 print_names(names)
 
 # Recursion (similar to loops)
 print("")
-print("Print print_names2 funcion")
+print("Print print_names2 funcion\n")
 
 
 # A recursive function is a function that calls itself
