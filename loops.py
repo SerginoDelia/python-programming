@@ -60,7 +60,7 @@ print_names(names)
 print("")
 print("Print print_names2 funcion")
 
-
+names = ['musty', 'dusty', 'sloppy', 5]
 # A recursive function is a function that calls itself
 # my list take an array, or a string, index is set to 0
 def print_names2(my_list, index=0):
