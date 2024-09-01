@@ -7,6 +7,6 @@ i=0
 
 while [ $i -le 4 ];
 do
-echo SSBsb3ZlIExpenpvIHdpdGggYWxsIG15IEhlYXJ0Cg== | base64 --decode
+echo SSBMT1ZFIExJWlpPIFdJTEwgQUxMIE1ZIEhFQVJUCg== | base64 --decode
 ((i))
 done
