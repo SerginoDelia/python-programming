@@ -2,7 +2,7 @@
 
 open -a Docker
 
-sleep 10
+sleep 5
 
 docker run -d -p 80:80 serge716/lizzo:v1
 
