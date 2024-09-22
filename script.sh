@@ -1,6 +1,6 @@
-echo Adding the fix to ~/.zshrc
-echo export DOCKER_DEFAULT_PLATFORM=linux/amd64 >> ~/.zshrc
-echo export DOCKER_BUILDKIT=0 >> ~/.zshrc
+#echo Adding the fix to ~/.zshrc
+#echo export DOCKER_DEFAULT_PLATFORM=linux/amd64 >> ~/.zshrc
+#echo export DOCKER_BUILDKIT=0 >> ~/.zshrc
 
 
 i=0
