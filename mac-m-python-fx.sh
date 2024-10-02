@@ -17,7 +17,7 @@ else
 
 # uninstall Pyhton packages
 for package in $python_packages; do
-  brew uninstall --ignore-dependencies
+  brew uninstall --ignore-dependencies @package
 done
 fi
 
