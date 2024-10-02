@@ -6,7 +6,7 @@
 python_packages=$(brew list --formula | grep -E '^(python@|python$)')
 
 # if python_packages is empty, display message and status code 0
-if [ -z "@python_packages" ]; then
+if [ -z "$python_packages" ]; then
   echo "No Python packages installed with Homebrew found."
   exit 0
 else
