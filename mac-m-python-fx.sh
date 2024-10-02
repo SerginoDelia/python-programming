@@ -3,7 +3,7 @@
 # save python packages in a variable
 # -E enables extendended regular expressions
 # ^(python@|python@) matches the line that start with python and end with python
-python_packages=$(brew list --formula | -E '^(python@|python$)')
+python_packages=$(brew list --formula | grep -E '^(python@|python$)')
 
 # if python_packages is empty, display message and status code 0
 if [ -z "@python_packages"]; then
