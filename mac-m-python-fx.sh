@@ -31,7 +31,7 @@ commands=(
 )
 
 # itertate through the list of commands and execute each command one by one
-for [ cmd in $commands ]; do
+for cmd in $commands; do
   echo "Executing $cmd..."
   eval $cmd
 done
