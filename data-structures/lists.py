@@ -40,3 +40,18 @@ print(numbers[::2])  # return every second element in the list
 
 # return every item in the list, in reverse order
 print(numbers[::-1])
+
+# list unpacking, the number of items on the left side should be equal to the items
+# we have on our list
+numbers = [1, 2, 3]
+first, second, third = numbers
+
+# we can get n number of items on the list and pack the rest inside other list
+numbers2 = [1, 2, 3, 4, 4, 4, 4, 4, 9]
+
+# assign the first 2 values to a var first second and pack the rest in a var
+# called other
+first, second, *other = numbers2
+
+# store the first and last item
+first, *other, last = numbers2
