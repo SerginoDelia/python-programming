@@ -23,6 +23,8 @@ print(a)
 # Output [(13, -30, (4, 1), (1, 2), (9, 10)]
 
 # Parallel sorting of lists
-data = zip(list1, list2)
-data = sorted(data)
-list1, list2 = map(lambda t: list(t), zip(*data))
+# data = zip(list1, list2)
+# data = sorted(data)
+# list1, list2 = map(lambda t: list(t), zip(*data))
+
+

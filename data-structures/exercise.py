@@ -28,6 +28,9 @@ for k in letters:
 print(result, letters[result])
 print(f"{result}, {letters[result]} times")
 
+print("Sorted Letters")
+print(sorted_letters)
+
 # refactored
 char_frequency = {}
 for char in sentence:
@@ -35,7 +38,7 @@ for char in sentence:
         char_frequency[char] += 1
     else:
       char_frequency[char] = 1
-pprint(char_frequency, width=1)
+#pprint(char_frequency, width=1)
 
 # this method returns all the key, value pairs as Tuples
 char_frequency_sorted = sorted(
