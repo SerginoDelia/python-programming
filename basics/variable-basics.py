@@ -14,3 +14,10 @@ x, y = 1, 2
 
 # we can set multiple variables to the same value
 x = y = 1
+
+# Typing
+# Python is a dynamically typed language
+# The type of variables are determined at runtime
+print(type(students_cout))
+print(type(rating))
+

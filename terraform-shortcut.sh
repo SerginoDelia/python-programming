@@ -1,9 +1,0 @@
-alias tfa='terraform apply --auto-approve'
-alias tfd='terraform destroy --auto-approve'
-alias tfp='terraform plan'
-alias tfi='terraform init'
-alias tfv='terraform validate'
-alias tf='terraform'
-alias tfc='terraform console'
-export tfcommands="Terraform Commands Shortcuts:\ntfi = terraform init\ntfv = terraform validate\ntf = terraform plan\ntfa = terraform apply --auto-approve\ntfd = terraform destroy --auto-approve"
-

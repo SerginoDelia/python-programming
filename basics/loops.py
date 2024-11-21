@@ -2,8 +2,8 @@
 # dynamically typed
 names = ['John', 'Wick', 'Trump', 'Kamala', 'Joe', 'Smith']
 new_names = names
-new_names.pop()
-new_names.append('Samuel')
+# new_names.pop()
+# new_names.append('Samuel')
 
 for name in names:
   print(name)

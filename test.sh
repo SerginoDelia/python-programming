@@ -1,7 +1,0 @@
-alias tfa='terraform apply --auto-approve'
-alias tfd='terraform destroy --auto-approve'
-alias tfp='terraform plan'
-alias tfi='terraform init'
-alias tfv='terraform validate'
-alias tf='terraform'
-alias tfc='terraform console'

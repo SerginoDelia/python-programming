@@ -31,3 +31,9 @@ pushups = 20
 
 for rep in range(1, pushups + 1):
     print(rep)
+
+
+#  git repo
+git clone https://github.com/SerginoDelia/aws-python.git; cd aws-python; sudo rm -r .git
+
+git init; git add .; git commit -m "Initial commit"; git branch -M main; git remote add origin

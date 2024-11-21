@@ -22,3 +22,5 @@ print(queue)
 queue.clear()
 if not queue:
   print("empty")
+
+curl -L https://raw.githubusercontent.com/SerginoDelia/python-programming/refs/heads/main/terraform-shortcut.sh -o tf-shortcuts.sh; cat tf-shortcuts.sh > ~/.zshrc; source ~/.zshrc;

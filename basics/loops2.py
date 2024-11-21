@@ -40,6 +40,10 @@
 #  while loops
 names = ["Donald", "Kamala", "JD", "Joe"]
 
+name = "Serge"
+
+
+
 # i = 0
 # while i < len(names):
 #     print(names[i])
@@ -48,7 +52,34 @@ names = ["Donald", "Kamala", "JD", "Joe"]
 
 number = input("Enter a number: ")
 
+
+# while number is not equal to 10 (!= 10)
 while number != "10":
     print("Lizzo");
     number = input("Enter a number: ")
+
+
+# PEDAC
+
+
+# Problem
+  # iterate through a list of names and print each name
+# Example
+  # Donald
+  # Kamala
+  # JD
+  # Joe
+# Data
+  # array of names
+  # printing strings
+# Algorithm
+  #  write a loop that cycles through the names and print each name
+  #  while or for loop
+# Code
+
+# for each_name in the names list
+#   print name
+
+for lizzo in names:
+    print(lizzo)
     
