@@ -1,6 +1,12 @@
 # Comprehension
 # Syntax: [expression for item in items]
 
+a_list = [1, 2, 3, 4, 5]
+a_list = [i * 5 for i in a_list] # iterate over the list, replacing the values
+
+# In a real sense we are applying the mapping operation
+map((lambda i: i * 5), a_list) # Apply lambda to every element in the list
+
 items = [
   ("Product1", 10),
   ("Product1", 9),
