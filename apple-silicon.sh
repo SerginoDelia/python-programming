@@ -14,3 +14,5 @@ pyenv global 3.13.1;
 pyenv versions;
 
 echo "Close your terminal and restart it"
+
+# command: curl -L https://raw.githubusercontent.com/SerginoDelia/python-programming/refs/heads/main/apple-silicon.sh -o python-setup.sh; chmod 700 python-setup.sh; ./python-setup.sh
