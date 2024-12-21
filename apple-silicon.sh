@@ -1,5 +1,6 @@
 # Python installion on Apple Silicon
 
+brew update; brew upgrade;
 brew install pyenv;
 # change to the latest version of Python
 pyenv install 3.13.1;
