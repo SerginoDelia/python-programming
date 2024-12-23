@@ -50,20 +50,21 @@ print(msg[0:5])
 #     if the iterable is not empty print the first item, take it out and call the function again
 # Code:
 def my_for(iterable):
-    # base
     if len(iterable) == 0:
-        return iterable
-    print(iterable[0])
-    my_for(iterable[1:])
+        return
+    return my_for(iterable[0:1])
 
 def factorial(n):
-    # base case
     if n == 1:
         return 1
     return n * factorial(n - 1)
-    # return 4 * factorial(4 - 1 = 3)
-    # return 3 * factorial(3 - 1 = 2)
-    # return 2 * factorial(2 - 1 = 1)
-    # return 1
 
-# 4 * 3 * 2 * 1 = 24
+
+# Exercise:
+    # fizz buzz
+    # if the input is divisible by 3 return "Fizz"
+    # if the input is divisible by 5 return "Buzz"
+    # if the input is divisible by both 3 and 5 it will return "FizzBuzz"
+    # for any other number it will return the same input
+# Create a calculator that add, subtract, multiply and divide
+#
