@@ -32,3 +32,5 @@ def calculator():
             return num1 / num2
 
 print(calculator())
+
+print(map(lambda x: x * 2, [1, 2, 3]))
