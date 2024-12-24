@@ -22,3 +22,31 @@ print(id(x))
 x.append(4)
 # the address will not change, changes are applied at the same memory location
 print(id(x))
+
+# Immutable
+print("Immutable")
+name = "Serge" # location in memory
+print(id(name))
+name = "John" # name is stored in another location in memory
+print(id(name))
+num = 15
+print(id(num))
+num = 20
+print(id(num))
+is_true = False
+print(id(is_true))
+is_true = True
+print(id(is_true))
+
+print("Mutable")
+arr = [1, 2, 3, 4]
+print(id(arr))
+arr.append(5)
+print(id(arr))
+arr2 = arr
+print(id(arr2))
+print(arr)
+print(arr2)
+arr2.append(6)
+print(arr2)
+print(arr)

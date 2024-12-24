@@ -52,13 +52,17 @@ print(msg[0:5])
 def my_for(iterable):
     if len(iterable) == 0:
         return
-    return my_for(iterable[0:1])
+    print(iterable[0])
+    return my_for(iterable[1:])
 
 def factorial(n):
     if n == 1:
         return 1
     return n * factorial(n - 1)
 
+
+msg = "I'm starting to love Python"
+my_for(msg)
 
 # Exercise:
     # fizz buzz

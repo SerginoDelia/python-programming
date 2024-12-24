@@ -1,3 +1,4 @@
+from webbrowser import Opera
 # Create a simple calculator that add, substract, multiply and divide
 # PEDAC
 # Problem: create a basic math calculator that can add, substract, multiply and divide
@@ -20,13 +21,14 @@ def calculator():
     num1 = int(input("Enter a number: "))
     num2 = int(input("Enter another number: "))
     operator = input("What operation would you like to do? ")
-    if operator == "+":
-        return num1 + num2
-    elif operator == "-":
-        return num1 - num2
-    elif operator == "*":
-        return num1 * num2
-    elif operator == "/":
-        return num1 / num2
+    match operator:
+        case "+":
+            return num1 + num2
+        case "-":
+            return num1 - num2
+        case "*":
+            return num1 * num2
+        case _:
+            return num1 / num2
 
 print(calculator())
