@@ -33,4 +33,6 @@ def calculator():
 
 print(calculator())
 
-print(map(lambda x: x * 2, [1, 2, 3]))
+arr = [1, 2, 3]
+test = (map(lambda x: x * 2, arr))
+print(arr)
