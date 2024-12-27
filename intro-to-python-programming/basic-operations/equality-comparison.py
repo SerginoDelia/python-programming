@@ -181,3 +181,19 @@ my_dict['fish'] = 'glub glub'
 print('Hello') # function call; returns None 
 my_list.sort() # method call; returns None 
 
+# Expression Evaluation 
+# by default python evaluates most expressions from left to right
+# This is fime if all the oprators are the same operator 
+1 + 2 + 3 + 4 + 5
+
+# don't rely on -precedence rules, use parentheses to tell Python explicitly how you
+# want to evalue the expression
+print(((4 * 5) -1) + (2 * 3))
+
+# Output and return values 
+# When we invoke the print function, we're telling Python to write some output to the display
+print('abc') # simply print the string 'abc' it doesn't return a useful value, only purpose is to print something
+
+# In mamy cases, a function or expression doen't print anything, but simply returns a value
+# that gets assigned to a variable, evalueate as a condition, or passed to another function
+list(range(3))
