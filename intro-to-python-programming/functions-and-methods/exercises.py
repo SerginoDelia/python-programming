@@ -246,6 +246,3 @@ print(remainders_5(all(numbers_1))) # False
 print(remainders_5(all(numbers_2))) # True - none of the values are divisible by 5 with 0 remainder
 print(remainders_5(all(numbers_3))) # False 
 print(remainders_5(all(numbers_4))) # True 
-
-
-
