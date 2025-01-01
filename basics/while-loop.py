@@ -7,10 +7,11 @@
 msg = "I'm starting to love Python"
 index = 0
 
-# msg[0]
-# msg[1]
-# msg[2]
+# print(msg[0])
+# print(msg[1])
+# print(msg[2])
 # ...
+# print(msg[26])
 #
 # Iterate through msg
 # what do we need:
@@ -18,8 +19,8 @@ index = 0
     # an index
 print(len(msg))
 
-# while index < len(msg):
-#     print(msg[index])
-#     # counter
-#     # index = index + 1
-#     index += 1
+while index < len(msg):
+    print(msg[index])
+    # counter
+    # index = index + 1
+    index += 1
