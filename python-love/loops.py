@@ -78,14 +78,16 @@ while index < len(names):
 # conver line 73-77 to a function
 print('While function')
 
-def print_names(my_list, index=0):
-   while index < len(my_list):
-       print(my_list[index])
-       index += 1
+def print_names(my_list, index=0): # index=0 is a default parameter
+    # index = 0
+    while index < len(my_list):
+        print(my_list[index])
+        index += 1
 
 lizzo = ['Lizzo', 'Music']
 print_names(lizzo)
 print_names(names)
+print_names(names, 3)
 
 # Prints 1, 2, 3, ..., 9
 # The parentheses used to surround an assignment expression are always required.
