@@ -89,6 +89,18 @@ print_names(lizzo)
 print_names(names)
 print_names(names, 3)
 
+names = ['Chris', 'Max', 'Karis', 'Victor']
+upper_names = []
+index = 0
+
+while index < len(names):
+    # upper_name = names[index].upper()
+    upper_names.append(names[index].upper())
+    index += 1
+
+print(upper_names);
+# ['CHRIS', 'MAX', 'KARIS', 'VICTOR']
+
 # Prints 1, 2, 3, ..., 9
 # The parentheses used to surround an assignment expression are always required.
 # The break statement can be used to abort a loop early. It only applies to the innermost
