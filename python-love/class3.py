@@ -1,3 +1,4 @@
+from tkinter import Variable
 # Data Type	Class	Category	Kind	Mutable
 # integers	int	numerics	Primitive	No
 # floats	float	numerics	Primitive	No
@@ -89,4 +90,25 @@ def get_age():
 # constant = variable that doesn't
 MY_CONSTANT = 21
 
-get_age()
+# get_age()
+
+age = 25
+body_type = 'curvy'
+melanin = True
+
+if age == 25 and body_type != 'curvy':
+    print('Jerard is not interested, get your weight up')
+elif age >= 25 and body_type == 'curvy' and melanin != True:
+    print('Jerard is not far away')
+elif age >= 25 and body_type == 'curvy' and melanin == True:
+    print('That\'s what Jerard is looking for')
+else:
+    print('Still looking, where are the chocolate girls?')
+
+# write a  progragram that returns Fizz if a number is divisible by 3
+# if the number is divisible by Buzz
+# if the number is divible by 3 and 5 FizzBuzz
+# Problem
+#   if the number is divisble by 3 return Fizz
+#   if number is divisble by 5 return Buzz
+#   if number is divisble by 3 and 5 return FizzBuzz
